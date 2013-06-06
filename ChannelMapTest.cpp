@@ -154,6 +154,7 @@ void ChannelMap::GetSX3FwdWorldCoordinates(Int_t DetID, Int_t FrontStp, Float_t 
   WZ = rand->Uniform(-0.05,0.05);  // This small interval is to account for the detector's thickness ~0.1 cm (probably not necessary)
   WX = r*cos(DetAngle) + w*sin(DetAngle);
   WY = r*sin(DetAngle) - w*cos(DetAngle);
+  // Comment for github.
   return;
 };
 
