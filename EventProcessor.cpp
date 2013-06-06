@@ -7,6 +7,7 @@ Description: Methods for the EventProcessor class. The EventProcessor
    
 Author: Daniel Santiago-Gonzalez
 2013-06
+Otro comentario
 *******************************************************************/
 
 //C and C++ libraries.
