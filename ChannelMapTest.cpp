@@ -202,6 +202,11 @@ void ChannelMap::InitWorldCoordinates(string WorldCoordinatesFilename)
   ifstream WorldCoordFile;
   int line_counter, NumDets;
   string line;
+
+  //Some comments
+  int x = 0;
+
+  //Yeah babe
   
   WorldCoordFile.open(WorldCoordinatesFilename.c_str());
   
@@ -240,6 +245,8 @@ void ChannelMap::InitWorldCoordinates(string WorldCoordinatesFilename)
     WorldCoordinatesLoaded = 1;   // Ready to use the world coordinates.
     cout << ">\tWorld coordinates loaded for " << NumDets << " SX3 detectors." << endl;
   }
+
+  cout << "Test by oz simpel cout" << endl;
   
   return;
 }
